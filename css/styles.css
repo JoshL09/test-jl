@@ -78,7 +78,7 @@ body{
 .index_div{
     height: 525px;
     width: 100%;
-    background: url(/img/innostaa_fondo_ps.jpg);
+    background: url(../img/innostaa_fondo_ps.jpg);
     background-position: center;
     background-size: cover;
 }
