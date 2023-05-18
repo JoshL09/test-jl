@@ -1,0 +1,184 @@
+body{
+    background: #f6f6f6;
+}
+
+.body_content{
+    display: flex;
+    justify-content: center;
+}
+.body_content .log{
+    width: 350px;
+    height: 420px;
+    border-radius: 3px;
+    box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.25);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: calc(100%/14) auto;
+}
+
+.logo_innostaa{
+    margin: 0 auto;
+}
+
+.logo_innostaa img{
+    width: 185px;
+    height: 185px;
+    object-fit: cover;
+}
+
+.inputs_login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.inputs_login div input{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border-color: #aeaeae;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-width: 2px;
+    border-right: none;
+    padding: 0 7px;
+}
+
+.inputs_login div input:focus{
+    outline: none;
+    border-color: rgb(81, 81, 82);
+    border-right: none;
+    background-color: #f4f4f4bc;
+}
+
+.inputs_login div{
+    display: flex;
+    flex-direction: row;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.inputs_login div .boton{
+    background-color: #65696d;
+    height: 33px;
+    width: 35px;
+    color: #fff;
+    margin: 0;
+}
+
+.inputs_login div .boton span{
+    font-size: 25px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.index_div{
+    height: 525px;
+    width: 100%;
+    background: url(/img/innostaa_fondo_ps.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .index_div {
+      max-height: 340px;
+    }
+    .botones_nuevo_usuario_form{
+        margin-left: -10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .index_div {
+        max-height: 340px;
+      }
+  }
+  
+.boton_login{
+    margin-top: 10px;
+    width: 300px;
+    height: 37px;
+    border: none;
+    border-radius: 3px;
+    background: #ffd400;
+}
+
+.boton_login:hover{
+    background: #ebc50b;
+}
+
+.boton_login a{
+text-decoration: none;
+font-size: 17px;
+color: #fff;
+}
+
+li a .size_icon{
+    font-size: 2rem;
+}
+
+.botones_nuevo_usuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botones_nuevo_usuario .col-3{
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.n_user{
+    text-decoration: none;
+    color: #fff;
+}
+
+.n_user:hover{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.opciones_perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.botones_nuevo_usuario{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.form_conexion{
+    background-color:  #dedede;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.datos_conexion{
+    margin: 25px 0;
+    text-align: center;
+}
+
+.card-h{
+    width: 100%;
+    height: 50px;
+    background: #65696d;
+    border-radius: 5px;
+}
+
+.concluir_reporte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
